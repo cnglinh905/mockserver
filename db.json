@@ -1,64 +1,14 @@
-[
-  {
-    "name": "daily",
-    "childs": [
-      {
-        "name": "drink",
-        "childs": []
-      },
-      {
-        "name": "eat",
-        "childs": []
-      }
-    ]
-  },
-  {
-    "name": "job",
-    "childs": [
-      {
-        "name": "ds",
-        "childs": [
-          {
-            "name": "learn python",
-            "childs": []
-          },
-          {
-            "name": "learn java",
-            "childs": []
-          }
-        ]
-      },
-      {
-        "name": "de",
-        "childs": [
-          {
-            "name": "learn kafka",
-            "childs": []
-          }
-        ]
-      },
-      {
-        "name": "ml",
-        "childs": [
-          {
-            "name": "learn LR",
-            "childs": []
-          },
-          {
-            "name": "learn chat gpt",
-            "childs": [
-              {
-                "name": "search",
-                "childs": []
-              },
-              {
-                "name": "learn",
-                "childs": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
