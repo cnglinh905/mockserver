@@ -1,0 +1,64 @@
+[
+  {
+    "name": "daily",
+    "childs": [
+      {
+        "name": "drink",
+        "childs": []
+      },
+      {
+        "name": "eat",
+        "childs": []
+      }
+    ]
+  },
+  {
+    "name": "job",
+    "childs": [
+      {
+        "name": "ds",
+        "childs": [
+          {
+            "name": "learn python",
+            "childs": []
+          },
+          {
+            "name": "learn java",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "name": "de",
+        "childs": [
+          {
+            "name": "learn kafka",
+            "childs": []
+          }
+        ]
+      },
+      {
+        "name": "ml",
+        "childs": [
+          {
+            "name": "learn LR",
+            "childs": []
+          },
+          {
+            "name": "learn chat gpt",
+            "childs": [
+              {
+                "name": "search",
+                "childs": []
+              },
+              {
+                "name": "learn",
+                "childs": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
